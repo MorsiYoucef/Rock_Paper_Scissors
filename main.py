@@ -26,7 +26,7 @@ def game(x):
         print("equality!")
     if x == 's' and random_computer == 'rock':
         print("you lose")
-    s=str(input("do you want to make another game?(if yes press (y) else press(n)!!)"))
+    s=str(input("do you want to play again?(y/n)"))
     if s == 'y':
         game(x = str(input("(r) for rock,(p) for paper, (s) for scissors !")))
 
